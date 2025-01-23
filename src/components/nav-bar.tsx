@@ -10,7 +10,7 @@ export function NavBar() {
   return (
     <nav className="fixed top-0 w-full bg-[#0B1121]/80 backdrop-blur-sm z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-16">  
           <div className="flex items-center">
             <Link href="/#home" className="flex items-center space-x-2">
               <Zap className="w-8 h-8 text-blue-500" />
