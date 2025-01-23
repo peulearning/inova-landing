@@ -14,21 +14,21 @@ export function NavBar() {
           <div className="flex items-center">
             <Link href="/#home" className="flex items-center space-x-2">
               <Zap className="w-8 h-8 text-blue-500" />
-              <span className="text-xl font-bold">Inova Simples</span>
+              <span className="text-xl font-bold text-white">Inova Simples</span>
             </Link>
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-8">
-              <Link href="/#home" className="hover:text-blue-500 transition-colors">
+              <Link href="/#home" className="hover:text-blue-500 transition-colors text-white">
                 Home
               </Link>
-              <Link href="/#services" className="hover:text-blue-500 transition-colors">
+              <Link href="/#services" className="hover:text-blue-500 transition-colors text-white">
                 Serviços
               </Link>
-              <Link href="/#about" className="hover:text-blue-500 transition-colors">
+              <Link href="/#about" className="hover:text-blue-500 transition-colors text-white">
                 Sobre
               </Link>
-              <Link href="/#contact" className="px-4 py-2 rounded-md bg-blue-500 hover:bg-blue-600 transition-colors">
+              <Link href="/#contact" className="px-4 py-2 rounded-md bg-blue-500 hover:bg-blue-600 transition-colors text-white">
                 Contato
               </Link>
             </div>
