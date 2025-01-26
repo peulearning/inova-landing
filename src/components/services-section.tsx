@@ -14,17 +14,17 @@ export function ServicesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ServiceCard
             icon={<Bot className="w-12 h-12 text-blue-500" />}
-            title="RPA"
+            title={<span className="text-white">RPA</span>}
             description="Automatização de processos robóticos para aumentar a eficiência operacional e reduzir custos."
           />
           <ServiceCard
             icon={<Code className="w-12 h-12 text-blue-500" />}
-            title="Desenvolvimento de Software"
+            title={<span className="text-white">Desenvolvimento de Software</span>}
             description="Criação de soluções personalizadas que atendem às necessidades específicas do seu negócio."
           />
           <ServiceCard
             icon={<Users className="w-12 h-12 text-blue-500" />}
-            title="Outsourcing"
+            title={<span className="text-white">Outsorcing</span>}
             description="Equipe especializada para suporte e desenvolvimento contínuo de projetos tecnológicos."
           />
         </div>
@@ -33,7 +33,7 @@ export function ServicesSection() {
   )
 }
 
-function ServiceCard({ icon, title, description }: { icon: React.ReactNode; title: string; description: string }) {
+function ServiceCard({ icon, title, description }: { icon: React.ReactNode; title: React.ReactNode; description: string }) {
   return (
     <Card className="bg-[#1A2333] border-none">
       <CardHeader>
