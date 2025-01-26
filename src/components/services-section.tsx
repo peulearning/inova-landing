@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Bot, Code, Users } from "lucide-react"
+import { Bot, Code, Lightbulb, Rocket, Users, Zap } from "lucide-react"
 
 export function ServicesSection() {
   return (
@@ -26,6 +26,21 @@ export function ServicesSection() {
             icon={<Users className="w-12 h-12 text-blue-500" />}
             title={<span className="text-white">Outsorcing</span>}
             description="Equipe especializada para suporte e desenvolvimento contínuo de projetos tecnológicos."
+          />
+          <ServiceCard
+            icon={<Lightbulb className="w-12 h-12 text-blue-500" />}
+            title={<span className="text-white">Consultoria</span>}
+            description="Assessoria especializada para otimizar seus processos e estratégias tecnológicas."
+          />
+          <ServiceCard
+            icon={<Rocket className="w-12 h-12 text-blue-500" />}
+            title={<span className="text-white">Inovação</span>}
+            description="Implementação de soluções inovadoras para manter sua empresa à frente no mercado."
+          />
+          <ServiceCard
+            icon={<Zap className="w-12 h-12 text-blue-500" />}
+            title={<span className="text-white">Aceleração Digital</span>}
+            description="Transformação digital acelerada para modernizar e impulsionar seu negócio."
           />
         </div>
       </div>
