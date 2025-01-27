@@ -20,7 +20,7 @@ export function ContactSection() {
               <ContactInfo icon={<MapPin />} text="São Paulo, SP - Brasil" />
             </div>
           </div>
-          <div className="bg-[#1A2333] p-8 rounded-xl">
+          <div className="bg-[#1A2333] p-8 rounded-xl"> 
             <form className="space-y-6">
               <div>
                 <Input placeholder="Nome" className="bg-[#0D1526]" />

@@ -12,32 +12,32 @@ type Testimonial = {
   image: string
 }
 
-const testimonials: Testimonial[] = [
-  {
-    quote:
-      "A Acceleration Develop transformou completamente nossos processos internos com soluções de RPA. A produtividade aumentou em 300% em apenas 3 meses.",
-    author: "Ana Silva",
-    role: "CTO",
-    company: "TechCorp Brasil",
-    image: "/placeholder.svg?height=80&width=80",
-  },
-  {
-    quote:
-      "Excelente parceria em desenvolvimento de software. Entregaram além das nossas expectativas e no prazo estabelecido.",
-    author: "João Santos",
-    role: "Diretor de Tecnologia",
-    company: "Inovação Tech",
-    image: "/placeholder.svg?height=80&width=80",
-  },
-  {
-    quote:
-      "O suporte 24/7 e a qualidade do trabalho são impressionantes. Recomendo fortemente para qualquer empresa que busca transformação digital.",
-    author: "Maria Oliveira",
-    role: "CEO",
-    company: "Digital Solutions",
-    image: "/placeholder.svg?height=80&width=80",
-  },
-]
+  const testimonials: Testimonial[] = [
+    {
+      quote:
+        "A Acceleration Develop transformou completamente nossos processos internos com soluções de RPA. A produtividade aumentou em 300% em apenas 3 meses.",
+      author: "Ana Silva",
+      role: "CTO",
+      company: "TechCorp Brasil",
+      image: "/assets/images/ana.jpg",
+    },
+    {
+      quote:
+        "Excelente parceria em desenvolvimento de software. Entregaram além das nossas expectativas e no prazo estabelecido.",
+      author: "João Santos",
+      role: "Diretor de Tecnologia",
+      company: "Inovação Tech",
+      image: "/assets/images/joao_1.jpg",
+    },
+    {
+      quote:
+        "O suporte 24/7 e a qualidade do trabalho são impressionantes. Recomendo fortemente para qualquer empresa que busca transformação digital.",
+      author: "Maria Oliveira",
+      role: "CEO",
+      company: "Digital Solutions",
+      image: "/assets/images/mariana_1.jpg",
+    },
+  ]
 
 export function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0)
