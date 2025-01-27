@@ -15,7 +15,7 @@ export function ContactSection() {
               consulta gratuita.
             </p>
             <div className="space-y-6">
-              <ContactInfo icon={<Mail />} text="contato@acceleration.dev" />
+              <ContactInfo icon={<Mail />} text="contato@inovasimples.dev" />
               <ContactInfo icon={<Phone />} text="+55 (11) 99999-9999" />
               <ContactInfo icon={<MapPin />} text="São Paulo, SP - Brasil" />
             </div>
